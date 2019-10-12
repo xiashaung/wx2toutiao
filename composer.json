@@ -1,0 +1,21 @@
+{
+  "name": "xiashuang/easyToutiao",
+  "description": "头条小程序接口开发工具",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "xiashuang",
+      "email": "996190264@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "XiaShuang\\TouTiao\\": "src"
+    }
+  },
+  "require": {
+    "ext-json": "*",
+    "phpunit/phpunit": "7.5.x-dev"
+  }
+}
